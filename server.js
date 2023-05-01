@@ -7,6 +7,7 @@ const cwd = process.cwd();
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+const activity = 'social network';
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(routes);
